@@ -6,7 +6,7 @@ import { Typewriter } from "react-simple-typewriter";
 const Home = () => {
   return (
     <>
-      <div className="md:flex md:flex-col-reverse lg:flex lg:flex-row">
+      <div className="md:flex flex flex-col-reverse lg:flex lg:flex-row">
         <div className="md:px-32 px-10  ">
           {" "}
           <h1

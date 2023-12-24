@@ -17,21 +17,21 @@ const Home = () => {
               fontWeight: "bold",
             }}
           >
-            BUILD YOUR GREEN FUTURE <br />
-            <span className="md:pl-12 pl-[3.75rem]"> WITH</span>{" "}
+            Build Your Green Future <br />
+            <span className="md:pl-12 pl-[3.75rem]"> With</span>{" "}
             <span style={{ color: "green", fontWeight: "bold" }}>
               <Typewriter
                 words={[" J-WIRES"]}
                 loop={Infinity}
                 cursor
                 cursorStyle="|"
-                typeSpeed={70}
+                typeSpeed={50}
                 deleteSpeed={50}
                 delaySpeed={1000}
               />
             </span>
           </h1>
-          <div className="md:mt-40 mt-8">
+          <div className="lg:mt-40 mt-8">
             <iframe
              className="md:w-[560px] md:h-[315px] "
               src="https://www.youtube.com/embed/mJlYyI9Umao?si=-91mtiXnkRtuddlQ"

@@ -3,6 +3,7 @@ import women from "../assets/women.svg";
 import idea from "../assets/idea.svg";
 import com from "../assets/com.svg";
 import energy from "../assets/energy.svg";
+import AnimatedNumbers from './AnimatedNumbers';
 
 const Goal = () => {
   return (
@@ -28,6 +29,26 @@ const Goal = () => {
           ))}
         </div>
       </div>
+      <div className="container mx-auto p-8 bg-gray-100">
+      <h1 className="text-3xl font-bold mb-8 text-center text-gray-800">
+        What Impact Has J-wires Had?
+      </h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <AnimatedNumbers endValue={400} label="S-MART" />
+        </div>
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <AnimatedNumbers endValue={1000} label="WOMEN ENGAGED" />
+        </div>
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <AnimatedNumbers endValue={50000} label="CLEAN COOKING DISSEMINATED" />
+        </div>
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <AnimatedNumbers endValue={30} label="LIVEHOOD Appliances Disseminated" />
+        </div>
+      </div>
+    </div>
+
     </section>
   );
 };

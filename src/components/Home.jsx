@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-center bg-gray-100 py-16 px-4 lg:px-8">
       <div className="lg:w-1/2 lg:pr-12 mb-8 lg:mb-0">
-        <h1 className="text-3xl lg:text-5xl font-bold text-center lg:text-left text-gray-800 mb-4 lg:ml-8">
+        <h1 className="text-2xl lg:text-4xl font-bold text-center lg:text-left text-gray-800 mb-4 lg:ml-8">
           Embrace Sustainability <br />
           <span className="lg:pl-12 pl-1">
             with{" "}

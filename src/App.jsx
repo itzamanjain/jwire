@@ -19,6 +19,8 @@ function App() {
     <Goal/>
     <Project/>
     <About/>
+    <Contact/>
+    
     </>
   )
 }

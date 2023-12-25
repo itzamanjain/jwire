@@ -49,7 +49,7 @@ const About = () => {
                 <div className="grid grid-cols-3 gap-2">
                 <img src={image1} alt="" className="w-32 h-auto" />
                   <img src={image2} alt="" className="w-32 h-auto" />
-                  <img src={image3} alt="" className="w-32 h-auto" />
+                  <img src={image3} alt="" className="w-16 h-16" />
                   <img src={image4} alt="" className="w-32 h-auto" />
                   <img src={image5} alt="" className="w-32 h-auto" />
                   <img src={image6} alt="" className="w-32 h-auto" />
@@ -57,11 +57,16 @@ const About = () => {
               </div>
 
               {/* Our Partners Section */}
-              <div className="shadow-md p-6 rounded-lg bg-white">
+              <div className="shadow-md p-6  rounded-lg bg-white">
                 <h3 className="text-2xl font-bold mb-4">Our Partners</h3>
-                <div className="grid grid-cols-2 gap-2">
-                <img src={image7} alt="" className="w-full h-auto" />
-                  <img src={image8} alt="" className="w-24 h-auto" />
+                <div className="grid grid-cols-2  gap-3 ">
+                <img src={image7} alt="" className="lg:w-48 md:w-32 h-auto" />
+                
+                  <img src={image8} alt="" className=" w-24 " />
+                </div>
+                <div className="flex gap-10 px-3">
+                  <h1><a href="">IIM BODH GAYA</a></h1>
+                  <h1><a href="">IIM BODH GAYA</a></h1>
                 </div>
               </div>
             </div>

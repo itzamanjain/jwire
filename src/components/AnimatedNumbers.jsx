@@ -19,8 +19,8 @@ const AnimatedNumbers = ({ endValue, label }) => {
 
   return (
     <div className="text-center">
-      <h2 className="text-3xl font-bold mb-2" data-number={`${animatedValue}+`}>
-        <animated.span className="text-blue-500">{number.to(value => Math.floor(value))}</animated.span>
+      <h2 className="text-3xl font-bold mb-2 text-blue-500" data-number={`${animatedValue}+`}>
+        <animated.span className="text-blue-500">{number.to(value => Math.floor(value))}</animated.span>+
       </h2>
       <p className="text-gray-600">{label}</p>
     </div>

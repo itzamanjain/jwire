@@ -19,6 +19,7 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10">
           {/* Left side text box */}
           <div className="mb-6 lg:mb-0 shadow-md p-6 rounded-lg bg-white">
+            <h3 className="text-xl font-bold text-center">Overview</h3>
             <p className="lg:mt-3 text-base lg:text-lg text-gray-700 leading-6 lg:leading-10">
             J-WiRES is a community owned and JEEViKA promoted pvt ltd company incorporated in Jan 2020, situated at Dobhi, Gaya, Bihar. We are manufacturer, assembler, trader and system Integrator Company dealing in electrical, electronics and Solar product and projects. The aim of J-WiRES is to create solar ecosystem in Bihar and provide opportunity for livelihood to community women (SHG Didis) through individual s-mart (solar shop) at their own location and form a group enterprise (J-WiRES) to get solar project from government and private partner to provide cost effective solutions and assured service. We are also engaged in research project and energy need assessment DPR as well solar advance training till solar technician level. we have 341 solar shops in 5 districts (Gaya Nawada, Aurangabad, W Champaran and Bhojpur), 57 blocks of Bihar, through J-WiRES we are supplying solar, electrical and electronic product as well as e-services (Airtel payment bank CSP) . We are sole manufacturer of LED bulb with our own brand and also fulfill all government certification like MSME and BIS certificate for self blast LED lighting. We are in partnership with various institutions like TERI, IITB, EESL, CEEW, Villgro and many more.
             </p>
@@ -66,7 +67,7 @@ const About = () => {
                 </div>
                 <div className="flex gap-10 px-3">
                   <h1><a href="">IIM BODH GAYA</a></h1>
-                  <h1><a href="">IIM BODH GAYA</a></h1>
+                  <h1><a href="">IIT BOMBAY</a></h1>
                 </div>
               </div>
             </div>

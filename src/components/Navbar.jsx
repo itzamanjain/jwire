@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import logo from "../assets/logo.svg";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
@@ -33,6 +33,14 @@ const Navbar = () => {
       setOpen(false);
     }
   };
+  const handleProductLinkClick = (event) => {
+    // Open the link in a new tab or window
+    window.open("/Product", "_blank");
+
+    // Prevent the default navigation behavior
+    event.preventDefault();
+  };
+
 
   return (
     <div className="relative z-50">
@@ -73,42 +81,54 @@ const Navbar = () => {
               open ? "flex" : "hidden"
             } md:flex md:justify-end md:flex-row `}
           >
-            <button
-              className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:border-b-2 border-black   md:text-lg"
-              onClick={() => scrollToSection("home")}
+                <Link to="/">
+          <button
+              className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:border-b-2 border-black md:text-lg"
+              onClick={() => scrollToSection("project")}
             >
               Home
             </button>
-            <button
+          </Link>
+            <Link to="/goal">
+          <button
               className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:border-b-2 border-black md:text-lg"
-              onClick={() => scrollToSection("goal")}
+              onClick={() => scrollToSection("project")}
             >
               Goal
             </button>
-            <button
+          </Link>
+          <Link to="/project">
+          <button
               className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:border-b-2 border-black md:text-lg"
               onClick={() => scrollToSection("project")}
             >
               Projects
             </button>
-            <button
+          </Link>
+            <Link
+        to="/Product"
+        target="_blank"
+        onClick={handleProductLinkClick}
+        className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:border-b-2 border-black md:text-lg"
+      >
+        Products
+      </Link>
+      <Link to="/about">
+          <button
               className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:border-b-2 border-black md:text-lg"
-              onClick={() => scrollToSection("products")}
-            >
-              Products
-            </button>
-            <button
-              className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:border-b-2 border-black md:text-lg"
-              onClick={() => scrollToSection("about")}
+              onClick={() => scrollToSection("project")}
             >
               About Us
             </button>
-            <button
+          </Link>
+          <Link to="/contact">
+          <button
               className="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:border-b-2 border-black md:text-lg"
-              onClick={() => scrollToSection("contact")}
+              onClick={() => scrollToSection("project")}
             >
               Contact Us
             </button>
+          </Link>
             <div className="relative" onClick={() => setOpen(!open)}>
               <button className="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:focus:bg-gray-600 dark-mode:hover:bg-gray-600 md:w-auto md:inline md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:border-b-2 border-black">
                 <span className="text-lg">Become a partner</span>

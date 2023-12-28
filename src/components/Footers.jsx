@@ -17,18 +17,8 @@ const Footer = () => {
             >
               <FaLinkedin className="text-xl lg:text-2xl" />
             </a>
-            <a
-              href="#"
-              className="hover:text-gray-400 transition duration-300 transform hover:scale-110"
-            >
-              <FaFacebook className="text-xl lg:text-2xl" />
-            </a>
-            <a
-              href="#"
-              className="hover:text-gray-400 transition duration-300 transform hover:scale-110"
-            >
-              <FaInstagram className="text-xl lg:text-2xl" />
-            </a>
+           
+           
             <a
               href="mailto:jeevikawires@gmail.com"
               className="hover:text-gray-400 transition duration-300 transform hover:scale-110"

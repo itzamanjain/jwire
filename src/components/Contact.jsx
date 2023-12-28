@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="container mx-auto flex flex-col md:flex-row mt-8 mb-12 bg-gray-100 p-8 rounded-lg  gap-11">
+    <section className="container mx-auto flex flex-col md:flex-row mt-8 mb-12 bg-gray-100 p-8 rounded-lg  gap-11" id="contact">
       {/* Map Section */}
       <div className="md:w-1/2 h-96 md:h-auto overflow-hidden mb-4 md:mb-0 shadow-lg">
         <iframe

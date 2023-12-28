@@ -75,7 +75,7 @@ const About = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               {/* Our Values Section */}
               <div className="shadow-md p-6 rounded-lg bg-white">
-                <h3 className="text-2xl font-bold mb-4">Our Values</h3>
+                <h3 className="text-2xl font-bold mb-4">Project Partners</h3>
                 <div className="grid grid-cols-3 gap-2">
                   <a href="https://www.teriin.org/">
                     <img src={image1} alt="" className="w-32 h-auto" />
@@ -100,7 +100,7 @@ const About = () => {
 
               {/* Our Partners Section */}
               <div className="shadow-md p-6  rounded-lg bg-white">
-                <h3 className="text-2xl font-bold mb-4">Our Partners</h3>
+                <h3 className="text-2xl font-bold mb-4">Knowledge Partners</h3>
                 <div className="grid grid-cols-2  gap-3 ">
                   <a href="https://iimbg.ac.in/">
                     <img

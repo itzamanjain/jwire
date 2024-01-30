@@ -26,7 +26,7 @@ const Home = () => {
         <p className="text-center lg:text-left text-gray-600 lg:ml-8 leading-relaxed">
           Join us on a journey to a greener future. At J-WIRES, we're dedicated to pioneering <span className="text-green-600">sustainable solutions</span> and environmental initiatives. From cutting-edge technologies to community-driven projects, our mission is to create a positive impact on the planet. Let's work together to build a <span className="text-green-600">sustainable</span> and healthier world for generations to come.
         </p>
-        <div className="text-center lg:text-left lg:ml-8">
+        <div className="text-center lg:text-left lg:ml-8 mt-10">
           <iframe
             className="w-full h-64 lg:h-80 xl:h-[400px] lg:w-[560px] mx-auto lg:mx-0"
             src="https://www.youtube.com/embed/mJlYyI9Umao?si=-91mtiXnkRtuddlQ"

@@ -20,7 +20,7 @@ const Footer = () => {
            
            
             <a
-              href="mailto:jeevikawires@gmail.com"
+              href="mailto:jwires.mail@gmail.com"
               className="hover:text-gray-400 transition duration-300 transform hover:scale-110"
             >
               <FaEnvelope className="text-xl lg:text-2xl" />
@@ -61,7 +61,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="text-base lg:text-lg opacity-75 text-center lg:text-center mt-8">
-        &copy; 2024 J-WIRES PVT.LTD All rights reserved.
+        &copy; 2024 J-WIRES PVT.LTD All Rights Reserved.
       </div>
     </div>
   );

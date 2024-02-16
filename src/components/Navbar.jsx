@@ -18,7 +18,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-salte-400 text-black">
+    <Disclosure as="nav" className="bg-salte-400 text-black mb-8 mt-4">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -38,7 +38,7 @@ export default function Example() {
               <div className="flex flex-1 items-center justify-center md:justify-evenly sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="h-8 w-auto"
+                    className="h-12 mr-40 t-5 w-auto"
                     src={Logo}
                     alt="Your Company"
                   />

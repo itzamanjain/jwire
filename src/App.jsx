@@ -11,7 +11,7 @@ import Footer from './components/Footers'
 import Product from './components/Product'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>

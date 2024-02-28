@@ -6,7 +6,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Example() {
+export default function Contact() {
   const form = useRef();
   const [loading, setLoading] = useState(false);
 

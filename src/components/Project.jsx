@@ -52,6 +52,8 @@ const Project = () => {
                 {project.title}
               </h1>
               <p className="text-gray-700">{project.description}</p>
+              {/* <a className="cursor-pointer" href="https://www.google.com" target="_blank" rel="noopener noreferrer">Read More ...</a> */}
+
             </div>
           </div>
         ))}

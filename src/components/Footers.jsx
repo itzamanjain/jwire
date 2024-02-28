@@ -1,12 +1,18 @@
-import React from 'react';
-import { FaFacebook, FaInstagram, FaEnvelope, FaLinkedin } from 'react-icons/fa';
-import jwire from '../assets/jwire.svg';
+import React from "react";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaEnvelope,
+  FaLinkedin,
+} from "react-icons/fa";
+import jwire from "../assets/jwire.svg";
+import CareerPage from "./Career";
+import { NavLink, Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div className="bg-black text-white py-8">
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
-
         {/* Logo and Social Media Links */}
         <div className="flex flex-col items-center lg:items-start mb-8 lg:mb-0 lg:flex-shrink-0 lg:w-1/4">
           <img src={jwire} alt="JWire Logo" className="h-5 mb-4" />
@@ -17,8 +23,7 @@ const Footer = () => {
             >
               <FaLinkedin className="text-xl lg:text-2xl" />
             </a>
-           
-           
+
             <a
               href="mailto:jwires.mail@gmail.com"
               className="hover:text-gray-400 transition duration-300 transform hover:scale-110"
@@ -30,16 +35,37 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div className="flex flex-col items-center lg:items-start mb-8 lg:mb-0 lg:flex-shrink-0 lg:w-1/4">
-          <h1 className="mb-2 text-xl lg:text-2xl font-semibold">Quick Links</h1>
+          <h1 className="mb-2 text-xl lg:text-2xl font-semibold">
+            Quick Links
+          </h1>
           <ul className="flex flex-col space-y-2">
             <li>
-              <a href="#" className="hover:text-gray-400 transition duration-300">Home</a>
+              <a
+                href="#"
+                className="hover:text-gray-400 transition duration-300"
+              >
+                Home
+              </a>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-400 transition duration-300">Career</a>
+              <NavLink
+                to="/career"
+                className={({ isActive }) =>
+                  `block py-2 pr-4 pl-3 duration-200 ${
+                    isActive ? "text-blue-700" : "text-white"
+                  } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-700 lg:p-0`
+                }
+              >
+                Career
+              </NavLink>
             </li>
             <li>
-              <a href="#product" className="hover:text-gray-400 transition duration-300">Product</a>
+              <a
+                href="#product"
+                className="hover:text-gray-400 transition duration-300"
+              >
+                Product
+              </a>
             </li>
           </ul>
         </div>
@@ -56,7 +82,6 @@ const Footer = () => {
 
         {/* Subscribe Form */}
         {/* Add your subscribe form here */}
-
       </div>
 
       {/* Copyright */}

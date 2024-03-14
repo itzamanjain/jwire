@@ -4,12 +4,13 @@ import idea from "../assets/idea.svg";
 import com from "../assets/com.svg";
 import energy from "../assets/energy.svg";
 import AnimatedNumbers from './AnimatedNumbers';
+import { SparklesPreview } from "./Sparkles";
 
 const Goal = () => {
   return (
     <section id="goal" className="py-12 bg-gray-100">
       <div className="container mx-auto">
-        <h1 className="text-center text-4xl font-bold mb-8">What Motivates Us?</h1>
+        
         <h2 className="text-center text-2xl font-bold mb-8">Goal</h2>
         
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">

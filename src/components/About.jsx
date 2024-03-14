@@ -8,13 +8,15 @@ import image6 from "../assets/ceew.png";
 import image7 from "../assets/iim.png";
 import image8 from "../assets/iitb.png";
 
+
+
+
 const About = () => {
   return (
-    <section id="about"  className="bg-gray-100 py-8 lg:py-16">
+    <section id="about"  className="bg-gray-100 w-full py-8 lg:py-16">
       <div className="container mx-auto">
-        <h1 className="text-3xl lg:text-4xl font-bold text-center mb-6 lg:mb-10 text-gray-800">
-          About Us
-        </h1>
+       
+       
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10">
           {/* Left side text box */}

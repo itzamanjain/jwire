@@ -1,10 +1,9 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Map from "./Map";
+import { LampDemo } from "./LampDemo";
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
+
 
 export default function Contact() {
   const form = useRef();
@@ -48,6 +47,7 @@ export default function Contact() {
 
   return (
     <>
+      <LampDemo />
       <div className="flex justify-evenly mb-12 md:flex-row flex-col" id="contact">
         <Map />
         <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">

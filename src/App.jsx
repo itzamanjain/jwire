@@ -9,6 +9,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footers'
 import Product from './components/Product'
+import { ImagesSliderDemo } from './components/Header'
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
     <>
      
     <Navbar/>
+    <ImagesSliderDemo />
     <Home/>
     <Goal/>
     <Project/>

@@ -2,13 +2,16 @@
 import { motion } from "framer-motion";
 
 import { ImagesSlider } from "../components/ui/images-slider";
+import h1 from '../assets/h1.jpg'
+import h2 from '../assets/h2.jpg'
+import h3 from '../assets/h3.jpg'
+import h4 from '../assets/h4.jpg'
+import h5 from '../assets/h5.jpg'
+import h6 from '../assets/h6.jpg'
 
 export function ImagesSliderDemo() {
   const images = [
-    "https://images.unsplash.com/photo-1485433592409-9018e83a1f0d?q=80&w=1814&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1483982258113-b72862e6cff6?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1482189349482-3defd547e0e9?q=80&w=2848&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  h1,h2,h3,h4,h5,h6
   ];
   return (
     <ImagesSlider className="h-[40rem]" images={images}>
@@ -27,7 +30,7 @@ export function ImagesSliderDemo() {
         className="z-50 flex flex-col justify-center items-center"
       >
         <motion.p className="font-bold text-3xl md:text-7xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
-        Embrace Sustainability <br /> with J-wires  
+        Embrace Sustainability <br /> with J-WiRES  
         </motion.p>
         <p className="text-center text-md md:text-xl lg:text-left text-white lg:ml-8 leading-relaxed">
            At J-WIRES, we are dedicated to pioneering <span className="text-green-600">sustainable solutions</span> and environmental initiatives.<br />  <span className="ml-10">Let's work together to build a <span className="text-green-600">sustainable</span> and <span className="text-green-600">healthier world</span> for generations to come.</span>

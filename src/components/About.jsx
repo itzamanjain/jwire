@@ -11,17 +11,22 @@ import image8 from "../assets/iitb.png";
 
 
 
+
 const About = () => {
   return (
+    <>
+    
+    
     <section id="about"  className="bg-gray-100 w-full py-8 lg:py-16">
+      
       <div className="container mx-auto">
        
        
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10">
+        <div className="">
           {/* Left side text box */}
           <div className="mb-6 lg:mb-0 shadow-md p-6 rounded-lg bg-white">
-            <h3 className="text-xl font-bold text-center">Overview</h3>
+            <h3 className="text-xl font-bold text-left">Overview</h3>
             <p className="lg:mt-3 text-base lg:text-lg text-gray-700 leading-6 lg:leading-10">
               J-WiRES is a community owned and JEEViKA promoted pvt ltd company
               incorporated in Jan 2020, situated at Dobhi, Gaya, Bihar. We are
@@ -46,10 +51,10 @@ const About = () => {
           </div>
 
           {/* Right side boxes */}
-          <div className="grid grid-rows-2 gap-6 lg:gap-10">
+          <div className="grid grid-col-2 gap-6 lg:gap-10">
             {/* Box 1 */}
-            <div className="mb-6 lg:mb-0 shadow-md p-6 rounded-lg bg-white">
-              <h3 className="text-xl font-bold text-center">Our Mission</h3>
+            <div className="mb-6 mt-5 lg:mb-0 shadow-md p-6 rounded-lg bg-white">
+              <h3 className="text-xl font-bold text-left">Our Mission</h3>
               <p className="text-base lg:text-lg text-gray-700 leading-6">
                 Our mission at J-WiRES is to create a sustainable solar
                 ecosystem in Bihar that empowers community women and provides
@@ -62,7 +67,7 @@ const About = () => {
 
             {/* Box 2 */}
             <div className="mb-6 lg:mb-0 shadow-md p-6 rounded-lg bg-white">
-              <h3 className="text-xl font-bold text-center">Our Vision</h3>
+              <h3 className="text-xl font-bold text-left">Our Vision</h3>
               <p className="text-base lg:text-lg text-gray-700 leading-6">
                 Our vision is to become a leading solar enterprise in Bihar,
                 known for our commitment to sustainability and social impact. We
@@ -121,6 +126,7 @@ const About = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

@@ -1,4 +1,4 @@
-import React from "react";
+
 import project1 from "../assets/project1.jpg";
 import project2 from "../assets/project2.jpeg";
 import project3 from "../assets/project3.jpg";
@@ -6,23 +6,23 @@ import project3 from "../assets/project3.jpg";
 const projects = [
   {
     id: 1,
-    title: "EPC PROJECT",
+    title: "Activating Supply Chain of Electric Cooking in Rural India",
     description:
-      "J-Wires and IIT Bombay are collaborating to develop and test efficient, sustainable, and marketable electric pressure cookers.",
+      "J-Wires and IIT Bombay are collaborating to develop and test efficient, sustainable, and marketable electric pressure cookers. Partnership of IIT Bombay and funded by MECS (Loughborough University, UK)",
     image: project1,
   },
   {
     id: 2,
-    title: "IDES PROJECT",
+    title: "Clean Energy Access programme",
     description:
-      "The system includes LED bulb, solar panel, battery, and cooking stove, reducing carbon emissions and promoting renewable energy.",
+      "Clean Energy Access programme in Partnership of TERI (The Energy and Resources Institute, New Delhi) to reduce the indoor pollution and providing clean energy 24*7. DRE livelihood projects in the Partnership of CEEW and Vilgro",
     image: project2,
   },
   {
     id: 3,
     title: "DRE LIVELIHOOD PROJECT",
     description:
-      "Provides reliable electricity to rural areas, aiding governments and promoting sustainable energy for meeting energy needs.",
+      "DRE livelihood projects in the Partnership of CEEW and Vilgro. Provides reliable electricity to rural areas, aiding governments and promoting sustainable energy for meeting energy needs.",
     image: project3,
   },
 

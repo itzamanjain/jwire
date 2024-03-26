@@ -5,6 +5,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import jwire from "../assets/jwire.svg";
+import { NavLink } from "react-router-dom";
 
 
 
@@ -54,20 +55,24 @@ const Footer = () => {
           </h1>
           <ul className="flex flex-col space-y-2">
             <li>
-              <a
-                href="/"
+              <NavLink
+                to="/"
                 className="hover:text-gray-400 transition duration-300"
               >
                 Home
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a
-                href="/career"
-                className="hover:text-gray-400 transition duration-300"
+              <NavLink
+                to="/career"
+                className={({ isActive }) =>
+                  `block py-2 pr-4 pl-3 duration-200 ${
+                    isActive ? "text-blue-700" : "text-white"
+                  } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-700 lg:p-0`
+                }
               >
                 Career
-              </a>
+              </NavLink>
             </li>
             <li>
               <a

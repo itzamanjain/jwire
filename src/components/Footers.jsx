@@ -1,4 +1,3 @@
-import React from "react";
 import {
   FaFacebook,
   FaInstagram,
@@ -6,16 +5,18 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import jwire from "../assets/jwire.svg";
-import CareerPage from "./Career";
-import { NavLink, Link } from "react-router-dom";
+
+
 
 const Footer = () => {
   return (
+    <>
+    
     <div className="bg-black text-white py-8">
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
         {/* Logo and Social Media Links */}
         <div className="flex flex-col items-center lg:items-start mb-8 lg:mb-0 lg:flex-shrink-0 lg:w-1/4">
-          <img src={jwire} alt="JWire Logo" className="h-5 mb-4" />
+          <img src={jwire} alt="JWire Logo" className="h-[30px] mb-4" />
           <div className="flex space-x-4">
             <a
               href="https://www.linkedin.com/company/jeevikawires/"
@@ -30,6 +31,19 @@ const Footer = () => {
             >
               <FaEnvelope className="text-xl lg:text-2xl" />
             </a>
+            <a
+              href="#"
+              className="hover:text-gray-400 transition duration-300 transform hover:scale-110"
+            >
+              <FaFacebook className="text-xl lg:text-2xl" />
+            </a>
+            <a
+              href="#"
+              className="hover:text-gray-400 transition duration-300 transform hover:scale-110"
+            >
+              <FaInstagram className="text-xl lg:text-2xl" />
+            </a>
+
           </div>
         </div>
 
@@ -41,27 +55,23 @@ const Footer = () => {
           <ul className="flex flex-col space-y-2">
             <li>
               <a
-                href="#"
+                href="/"
                 className="hover:text-gray-400 transition duration-300"
               >
                 Home
               </a>
             </li>
             <li>
-              <NavLink
-                to="/career"
-                className={({ isActive }) =>
-                  `block py-2 pr-4 pl-3 duration-200 ${
-                    isActive ? "text-blue-700" : "text-white"
-                  } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-700 lg:p-0`
-                }
+              <a
+                href="/career"
+                className="hover:text-gray-400 transition duration-300"
               >
                 Career
-              </NavLink>
+              </a>
             </li>
             <li>
               <a
-                href="#product"
+                href="/products"
                 className="hover:text-gray-400 transition duration-300"
               >
                 Product
@@ -89,6 +99,8 @@ const Footer = () => {
         &copy; 2024 J-WIRES PVT.LTD All Rights Reserved.
       </div>
     </div>
+    </>
+    
   );
 };
 

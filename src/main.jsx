@@ -12,7 +12,8 @@ import CareerPage from "./components/Career.jsx";
 
 const App = () => {
   return (
-    <Layout>
+ 
+     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -21,7 +22,8 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/career" element={<CareerPage />} />
       </Routes>
-    </Layout>
+      
+    </Router>
   );
 };
 

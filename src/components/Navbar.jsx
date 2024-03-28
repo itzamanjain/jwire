@@ -54,10 +54,10 @@ export default function Header() {
               )}
             </button>
             <Link
-              to="#"
+              to="/about"
               className={`text-white bg-blue-600 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none hidden lg:block`}
             >
-              Get started
+              Learn More
             </Link>
           </div>
           <div

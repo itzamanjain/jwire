@@ -11,22 +11,8 @@ const CareerPage = () => {
               J-WiRES is a community-owned and JEEViKA promoted private limited company incorporated in January 2020, situated at Dobhi, Gaya, Bihar. We are a manufacturer, assembler, trader, and system integrator company dealing in electrical, electronics, and solar products and projects. Our aim is to create a solar ecosystem in Bihar and provide opportunities for livelihood to community women (SHG Didis) through individual S-Mart (solar shop) at their own location and form a group enterprise (J-WiRES) to get solar projects from government and private partners to provide cost-effective solutions and assured service. We are also engaged in research projects and energy need assessment DPR as well as solar advance training up to the solar technician level. We have 341 solar shops in 5 districts (Gaya, Nawada, Aurangabad, West Champaran, and Bhojpur), 57 blocks of Bihar. Through J-WiRES, we are supplying solar, electrical, and electronic products as well as e-services (Airtel payment bank CSP). We are the sole manufacturer of LED bulbs with our own brand and also fulfill all government certifications like MSME and BIS certificate for self-blast LED lighting. We are in partnership with various institutions like TERI, IITB, EESL, CEEW, Villgro, and many more.
             </p>
           </div>
-          <div className="mb-8">
-            <h2 className="text-xl lg:text-2xl font-bold mb-4">Our Mission</h2>
-            <p className="text-base lg:text-lg text-gray-700 leading-6 lg:leading-8">
-              Our mission at J-WiRES is to create a sustainable solar ecosystem in Bihar that empowers community women and provides affordable and reliable solar solutions to public and private partners. We aim to promote energy efficiency, reduce carbon footprint, and contribute towards developing rural communities in Bihar and controlling climate change.
-            </p>
+            <p className="font-semibold text-center text-2xl">Currently, there are no open positions.</p>
           </div>
-          <div>
-            <h2 className="text-xl lg:text-2xl font-bold mb-4">Our Vision</h2>
-            <p className="text-base lg:text-lg text-gray-700 leading-6 lg:leading-8">
-              Our vision is to become a leading solar enterprise in Bihar, known for our commitment to sustainability and social impact. We aim to expand our reach to more districts and communities and to continue offering advanced solar training and research projects. We aspire to create a model that can be replicated in other parts of India and to contribute towards India’s goal of achieving a clean energy future.
-            </p>
-          </div>
-          <div className="text-center text-gray-700 mt-8">
-            <p className="font-semibold">Currently, there are no open positions.</p>
-          </div>
-        </div>
       </section>
     );
   };

@@ -1,5 +1,5 @@
 import  { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Logo from "../assets/logo.svg";
 
 export default function Header() {
@@ -126,6 +126,18 @@ export default function Header() {
                   }
                 >
                   Careers
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/modelmart"
+                  className={({ isActive }) =>
+                    `block py-2 pr-4 pl-3 duration-200 ${
+                      isActive ? "text-blue-700" : "text-gray-700"
+                    } border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-700 lg:p-0`
+                  }
+                >
+                  Model Mart
                 </Link>
               </li>
               <li>

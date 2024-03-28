@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+
 import { InfiniteMovingCards } from "../components/ui/infinite-moving-cards";
 
 export function InfiniteMovingCardsDemo() {
@@ -9,7 +9,7 @@ export function InfiniteMovingCardsDemo() {
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
-        speed="slow"
+        speed="normal"
       />
     </div>
   );

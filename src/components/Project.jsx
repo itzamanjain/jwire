@@ -15,14 +15,14 @@ const projects = [
     id: 2,
     title: "Clean Energy Access programme",
     description:
-      "Clean Energy Access programme in Partnership of TERI (The Energy and Resources Institute, New Delhi) to reduce the indoor pollution and providing clean energy 24*7. DRE livelihood projects in the Partnership of CEEW and Vilgro",
+      "Clean Energy Access programme in Partnership of TERI (The Energy and Resources Institute, New Delhi) to reduce the indoor pollution and providing clean energy 24*7.",
     image: project2,
   },
   {
     id: 3,
     title: "DRE LIVELIHOOD PROJECT",
     description:
-      "DRE livelihood projects in the Partnership of CEEW and Vilgro. Provides reliable electricity to rural areas, aiding governments and promoting sustainable energy for meeting energy needs.",
+      "DRE livelihood projects in the Partnership of CEEW and Villgro. Provides reliable electricity to rural areas, aiding governments and promoting sustainable energy for meeting energy needs.",
     image: project3,
   },
 

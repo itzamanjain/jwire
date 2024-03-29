@@ -18,7 +18,8 @@ const About = () => {
     
     
     <section id="about"  className="bg-gray-100 w-full py-8 lg:py-16">
-      
+    <h1 className="bg-gray-100 text-center text-5xl underline mb-5 font-bold text-blue-800 hover:text-purple-600 transition-colors duration-300">About Us</h1>
+
       <div className="container mx-auto">
        
        

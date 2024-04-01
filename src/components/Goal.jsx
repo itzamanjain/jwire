@@ -33,7 +33,7 @@ const Goal = () => {
       </div>
       <div className="container mx-auto p-8 mt-8 bg-gray-100">
       <h1 className="text-2xl lg:text-3xl  font-bold mt- text-center text-gray-800">
-        What Impact Has J-wires Had?
+        What Impact Has J-WiRES Had?
       </h1>
       <div className="grid grid-cols-1 mt-10  md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="bg-white p-6 rounded-lg shadow-md">

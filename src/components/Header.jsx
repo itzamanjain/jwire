@@ -32,7 +32,7 @@ export function ImagesSliderDemo() {
           Embrace Sustainability <br /> with J-WiRES
         </motion.p>
         <p className="text-center text-md md:text-xl lg:text-left text-white lg:ml-8 leading-relaxed">
-          At J-WIRES, we are dedicated to pioneering{" "}
+          At J-WiRES, we are dedicated to pioneering{" "}
           <span className="text-green-600">sustainable solutions</span> and
           environmental initiatives.
           <br />{" "}

@@ -27,7 +27,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="mailto:jwires.mail@gmail.com"
+              href="mailto:jeevikawires@gmail.com"
               className="hover:text-gray-400 transition duration-300 transform hover:scale-110"
             >
               <FaEnvelope className="text-xl lg:text-2xl" />
@@ -39,7 +39,7 @@ const Footer = () => {
               <FaFacebook className="text-xl lg:text-2xl" />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/jeevika_wirespvt.ltd?igsh=OXU5NzlyY2t4ejBm"
               className="hover:text-gray-400 transition duration-300 transform hover:scale-110"
             >
               <FaInstagram className="text-xl lg:text-2xl" />
@@ -97,7 +97,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="text-base lg:text-lg opacity-75 text-center lg:text-center mt-8">
-        &copy; 2024 J-WIRES Pvt. Ltd. All rights reserved.
+        &copy; 2024 J-WiRES Pvt. Ltd. All rights reserved.
       </div>
     </div>
     </>

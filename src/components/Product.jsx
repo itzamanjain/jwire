@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import img1 from "../assets/foodpros.jpg";
 import img2 from "../assets/greenfod.jpg";
 import img3 from "../assets/modelmart.jpg";
@@ -16,6 +17,7 @@ const Product = () => {
       description: "Illuminate your space efficiently with our LED Bulb. Energy-saving and long-lasting brilliance for a brighter future.",
       price: 59.99,
       image: img7,
+      linkTo: "/led-details" // Specify the link for Led Bulb
     },
     {
       id: 2,
@@ -24,6 +26,7 @@ const Product = () => {
       price: 29.99,
       image: img2,
     },
+
     {
       id: 3,
       name: "Model Mart",
@@ -68,7 +71,7 @@ const Product = () => {
       price: 59.99,
       image: img8,
     },
-  
+    // Add other product objects here
   ];
 
   return (
@@ -77,16 +80,35 @@ const Product = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4">
         {products.map((product) => (
-          <div key={product.id} className="bg-white rounded-md overflow-hidden shadow-md">
-            <img
-              src={product.image}
-              alt={product.name}
-              className="w-full h-52 object-cover hover:scale-105 transition-transform duration-300"
-            />
-            <div className="p-4">
-              <h2 className="text-xl font-bold mb-2 text-center">{product.name}</h2>
-              <p className="text-gray-600 mb-4">{product.description}</p>
-            </div>
+          // Render Link only for the Led Bulb product
+          <div key={product.id}>
+            {product.id === 1 ? (
+              <Link to={product.linkTo}>
+                <div className="bg-white rounded-md overflow-hidden shadow-md">
+                  <img
+                    src={product.image}
+                    alt={product.name}
+                    className="w-full h-52 object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="p-4">
+                    <h2 className="text-xl font-bold mb-2 text-center">{product.name}</h2>
+                    <p className="text-gray-600 mb-4">{product.description}</p>
+                  </div>
+                </div>
+              </Link>
+            ) : (
+              <div className="bg-white rounded-md overflow-hidden shadow-md">
+                <img
+                  src={product.image}
+                  alt={product.name}
+                  className="w-full h-52 object-cover hover:scale-105 transition-transform duration-300"
+                />
+                <div className="p-4">
+                  <h2 className="text-xl font-bold mb-2 text-center">{product.name}</h2>
+                  <p className="text-gray-600 mb-4">{product.description}</p>
+                </div>
+              </div>
+            )}
           </div>
         ))}
       </div>

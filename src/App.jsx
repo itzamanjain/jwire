@@ -10,6 +10,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footers'
 import Product from './components/Product'
 import { ImagesSliderDemo } from './components/Header'
+import Led from '../src/components/Led'
 
 function App() {
   
@@ -23,9 +24,11 @@ function App() {
     <Goal/>
     <Project/>
     <Product/>
+    <Led />
     <About/>
     <Contact/>
     <Footer/>
+
     
     </>
   )

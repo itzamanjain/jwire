@@ -11,6 +11,7 @@ import Contact from "./components/Contact.jsx";
 import CareerPage from "./components/Career.jsx";
 import ModelMart from "./components/Modelmart.jsx";
 import OurPartners from "./components/OurPartners.jsx";
+import Led from '../src/components/Led.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -23,6 +24,7 @@ const router = createBrowserRouter(
       <Route path="/career" element={<CareerPage />} />
       <Route path="/modelmart" element={<ModelMart />} />
       <Route path="/our-partners" element={<OurPartners />} />
+      <Route path="/led-details" element={<Led />} />
     </Route>
   )
 )

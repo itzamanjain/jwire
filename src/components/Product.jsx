@@ -12,10 +12,10 @@ const Product = () => {
   const products = [
     {
       id: 1,
-      name: "Food Prossesing Unit",
-      description: "Efficient and innovative, this unit streamlines food preparation. Enhance your kitchen experience with cutting-edge technology",
-      price: 19.99,
-      image: img1,
+      name: "Led Bulb",
+      description: "Illuminate your space efficiently with our LED Bulb. Energy-saving and long-lasting brilliance for a brighter future.",
+      price: 59.99,
+      image: img7,
     },
     {
       id: 2,
@@ -55,10 +55,10 @@ const Product = () => {
   
     {
       id: 7,
-      name: "Led Bulb",
-      description: "Illuminate your space efficiently with our LED Bulb. Energy-saving and long-lasting brilliance for a brighter future.",
-      price: 59.99,
-      image: img7,
+      name: "Food Prossesing Unit",
+      description: "Efficient and innovative, this unit streamlines food preparation. Enhance your kitchen experience with cutting-edge technology",
+      price: 19.99,
+      image: img1,
     },
   
     {
